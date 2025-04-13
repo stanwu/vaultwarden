@@ -21,7 +21,7 @@
 [![GitHub 討論](https://img.shields.io/github/discussions/dani-garcia/vaultwarden?style=flat-square&logo=github&logoColor=fff&color=953B00&cacheSeconds=300)](https://github.com/dani-garcia/vaultwarden/discussions)
 [![Discourse 討論](https://img.shields.io/discourse/topics?server=https%3A%2F%2Fvaultwarden.discourse.group%2F&style=flat-square&logo=discourse&color=953B00)](https://vaultwarden.discourse.group/)
 
-> [!重要]
+> [!IMPORTANT]
 > **使用此伺服器時，請直接向我們報告任何錯誤或建議（參見[聯繫方式](#聯繫方式)），無論您使用的是哪種客戶端（移動端、桌面端、瀏覽器...）。請勿使用官方 Bitwarden 支援渠道。**
 
 <br>
@@ -58,14 +58,14 @@
 
 ## 使用方法
 
-> [!重要]
+> [!IMPORTANT]
 > 大多數現代網頁瀏覽器不允許在不安全的上下文中使用 Web Crypto API。在這種情況下，您可能會遇到類似 `Cannot read property 'importKey'` 的錯誤。要解決此問題，您需要通過 HTTPS 或 localhost 訪問 Web Vault。
 >
 >這可以在 [Vaultwarden 中直接配置](https://github.com/dani-garcia/vaultwarden/wiki/Enabling-HTTPS)或使用第三方反向代理（[一些示例](https://github.com/dani-garcia/vaultwarden/wiki/Proxy-examples)）。
 >
 >如果您有可用的域名，可以使用 [Let's Encrypt](https://letsencrypt.org/) 獲取 HTTPS 證書，或者可以使用像 [mkcert](https://github.com/FiloSottile/mkcert) 這樣的工具生成自簽名證書。一些代理會自動完成此步驟，例如 Caddy 或 Traefik（請參見上面鏈接的示例）。
 
-> [!提示]
+> [!TIP]
 >**有關如何安裝、使用和配置 Vaultwarden 的更詳細示例，您可以查看我們的 [Wiki](https://github.com/dani-garcia/vaultwarden/wiki)。**
 
 使用 Vaultwarden 的主要方式是通過我們的容器映像，這些映像已發佈到 [ghcr.io](https://github.com/dani-garcia/vaultwarden/pkgs/container/vaultwarden)、[docker.io](https://hub.docker.com/r/vaultwarden/server) 和 [quay.io](https://quay.io/repository/vaultwarden/server)。
