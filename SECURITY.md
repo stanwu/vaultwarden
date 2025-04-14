@@ -1,48 +1,47 @@
-Vaultwarden tries to prevent security issues but there could always slip something through.
-If you believe you've found a security issue in our application, we encourage you to
-notify us. We welcome working with you to resolve the issue promptly. Thanks in advance!
+Vaultwarden 致力於防止安全問題，但仍有可能出現漏洞。
+如果您認為您在我們的應用程式中發現了安全問題，我們鼓勵您
+通知我們。我們歡迎與您合作，以迅速解決問題。提前感謝！
 
-# Disclosure Policy
+# 揭露政策
 
-- Let us know as soon as possible upon discovery of a potential security issue, and we'll make every
-  effort to quickly resolve the issue.
-- Provide us a reasonable amount of time to resolve the issue before any disclosure to the public or a
-  third-party. We may publicly disclose the issue before resolving it, if appropriate.
-- Make a good faith effort to avoid privacy violations, destruction of data, and interruption or
-  degradation of our service. Only interact with accounts you own or with explicit permission of the
-  account holder.
+- 請在發現潛在安全問題時盡快通知我們，我們將盡一切
+  努力迅速解決問題。
+- 在向公眾或第三方披露之前，請給我們合理的時間來解決問題。
+  如果適當，我們可能會在解決問題之前公開披露該問題。
+- 請盡力避免侵犯隱私、破壞數據以及中斷或降低
+  我們的服務質量。僅與您自己擁有的帳戶或在帳戶持有人明確許可的情況下進行互動。
 
-# In-scope
+# 範圍內容
 
-- Security issues in any current release of Vaultwarden. Source code is available at https://github.com/dani-garcia/vaultwarden. This includes the current `latest` release and `main / testing` release.
+- Vaultwarden 任何當前版本中的安全問題。源代碼可在 https://github.com/dani-garcia/vaultwarden 獲取。這包括當前的 `latest` 版本和 `main / testing` 版本。
 
-# Exclusions
+# 排除項目
 
-The following bug classes are out-of scope:
+以下錯誤類別不在範圍內：
 
-- Bugs that are already reported on Vaultwarden's issue tracker (https://github.com/dani-garcia/vaultwarden/issues)
-- Bugs that are not part of Vaultwarden, like on the web-vault or mobile and desktop clients. These issues need to be reported in the respective project issue tracker at https://github.com/bitwarden to which we are not associated
-- Issues in an upstream software dependency (ex: Rust, or External Libraries) which are already reported to the upstream maintainer
-- Attacks requiring physical access to a user's device
-- Issues related to software or protocols not under Vaultwarden's control
-- Vulnerabilities in outdated versions of Vaultwarden
-- Missing security best practices that do not directly lead to a vulnerability (You may still report them as a normal issue)
-- Issues that do not have any impact on the general public
+- 已在 Vaultwarden 的問題追蹤器上報告的錯誤 (https://github.com/dani-garcia/vaultwarden/issues)
+- 不屬於 Vaultwarden 的錯誤，如網頁保險庫或移動和桌面客戶端中的錯誤。這些問題需要在相應的項目問題追蹤器 https://github.com/bitwarden 中報告，我們與該追蹤器沒有關聯
+- 上游軟件依賴項中的問題（例如：Rust 或外部庫），這些問題已向上游維護者報告
+- 需要對使用者設備進行物理訪問的攻擊
+- 與不受 Vaultwarden 控制的軟件或協議相關的問題
+- 過時版本的 Vaultwarden 中的漏洞
+- 不直接導致漏洞的安全最佳實踐缺失（您仍可以將其報告為普通問題）
+- 對公眾沒有任何影響的問題
 
-While researching, we'd like to ask you to refrain from:
+在研究過程中，我們希望您避免：
 
-- Denial of service
-- Spamming
-- Social engineering (including phishing) of Vaultwarden developers, contributors or users
+- 拒絕服務攻擊
+- 發送垃圾信息
+- 對 Vaultwarden 開發人員、貢獻者或用戶進行社會工程學攻擊（包括網絡釣魚）
 
-Thank you for helping keep Vaultwarden and our users safe!
+感謝您幫助維護 Vaultwarden 和我們用戶的安全！
 
-# How to contact us
+# 如何聯繫我們
 
-- You can contact us on Matrix https://matrix.to/#/#vaultwarden:matrix.org (users: `@danig:matrix.org` and/or `@blackdex:matrix.org`)
-- You can send an ![security-contact](/.github/security-contact.gif) to report a security issue.<br>
-  If you want to send an encrypted email you can use the following GPG key: 13BB3A34C9E380258CE43D595CB150B31F6426BC<br>
-  It can be found on several public GPG key servers.<br>
+- 您可以通過 Matrix https://matrix.to/#/#vaultwarden:matrix.org 聯繫我們（用戶：`@danig:matrix.org` 和/或 `@blackdex:matrix.org`）
+- 您可以發送 ![security-contact](/.github/security-contact.gif) 來報告安全問題。<br>
+  如果您想發送加密電子郵件，可以使用以下 GPG 密鑰：13BB3A34C9E380258CE43D595CB150B31F6426BC<br>
+  該密鑰可在多個公共 GPG 密鑰伺服器上找到。<br>
     * https://keys.openpgp.org/search?q=security%40vaultwarden.org
     * https://keys.mailvelope.com/pks/lookup?op=get&search=security%40vaultwarden.org
     * https://pgpkeys.eu/pks/lookup?search=security%40vaultwarden.org&fingerprint=on&op=index
