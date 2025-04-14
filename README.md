@@ -11,6 +11,25 @@
 
 一個替代的 Bitwarden 客戶端 API 伺服器實現，使用 Rust 編寫，與[官方 Bitwarden 客戶端](https://bitwarden.com/download/) [[免責聲明](#免責聲明)]相容，非常適合在資源有限的環境中自我託管部署，而不需要運行官方的資源密集型服務。
 
+
+### 安裝編譯環境 (Codespaces)
+
+安裝 pre-commit
+```
+# 安裝 pre-commit
+pip install pre-commit
+
+# 在當前專案啟用
+pre-commit install
+```
+
+安裝 cargo
+
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source ~/.cargo/env
+```
+
 ---
 
 [![GitHub 版本](https://img.shields.io/github/release/dani-garcia/vaultwarden.svg?style=for-the-badge&logo=vaultwarden&color=005AA4)](https://github.com/dani-garcia/vaultwarden/releases/latest)
