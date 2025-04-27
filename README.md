@@ -23,7 +23,7 @@ pip install pre-commit
 pre-commit install
 ```
 
-安裝 cargo
+安裝 rust
 
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
